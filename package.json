@@ -1,0 +1,26 @@
+{
+  "name": "habric",
+  "version": "0.0.1",
+  "description": "Habr reader Chrome extension",
+  "keywords": [
+    "chrome-extension"
+  ],
+  "author": "Almazko",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlmazKo/habric"
+  },
+  "dependencies": {
+    "@types/chrome": "0.0.50"
+  },
+  "devDependencies": {
+    "webpack": "^3.8.1",
+    "ts-loader": "^3.0.3",
+    "typescript": "^2.5.3"
+  },
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "webpack"
+  }
+}

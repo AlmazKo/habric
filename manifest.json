@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Habric",
+  "version": "0.1",
+  "description": "Habr reader",
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "content_scripts": [
+    {
+      "js": [ "dist/inject.js" ],
+      "matches": [ "https://habrahabr.ru/*", "https://geektimes.ru/*" ]
+    }
+  ]
+}
